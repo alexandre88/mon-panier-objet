@@ -1,10 +1,12 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 	<html>
 		<head>
 		<meta charset="utf-8">
-			<title>Mon panier objet</title>
-			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-			<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mon panier objet</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		</head>
 		<body>
 			<!-- En tête -->
@@ -13,11 +15,11 @@
 			</header>
 
 			<!--Contenu principal -->	
-			<main>
-				<div id="container-boutons">
-					<button id="btn-1">Oeuf : 0.80€</button>
-					<button id="btn-2">Sandwich : 4,20€</button>
-					<button id="btn-3">Verre de vin : 5€</button>
+			<main class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12"><button id="btn-1">Oeuf : 0.80€</button></div>
+					<div class="col-md-4 col-sm-12"><button id="btn-2">Sandwich : 4,20€</button></div>
+					<div class="col-md-4 col-sm-12"><button id="btn-3">Verre de vin : 5€</button></div>
 				</div>
 				<div>
 					<div id="texte-panier">Votre panier est vide</div>
